@@ -1,0 +1,53 @@
+# Dependencies
+gems:
+  - jekyll-sitemap
+  - jekyll-assets
+  - font-awesome-sass
+
+# Site
+title: Connect Software - Em breve estaremos de cara nova
+description:
+baseurl: ""
+url: ""
+favicon: favicon.ico
+exclude:
+  - Gemfile*
+  - bower.json
+  - Guardfile
+  - scripts
+
+# Google Analytics
+google_analytics: UA-105576946-1
+
+# Google Tag Manager
+google_tagmanager: false
+
+# Google site verification
+google_site_verificatio: false
+
+# Company
+company:
+  name: 'Connect Software'
+  brand_img: 'connect-logo.png'
+  brand_img_alt: 'Connect Software Logo'
+  google_maps_url: 'https://www.google.com.br/maps/place/CONNECT+SOFTWARE/@-15.5959828,-56.1168625,15z/data=!4m2!3m1!1s0x0:0xa8539b33e073bce6?sa=X&ved=0ahUKEwiftPvGsP3VAhWJbSYKHQSICHQQ_BIIcDAK'
+  address: 'R. das Begônias, 520 - Jardim Cuiaba - Cuiabá / MT'
+  phones:
+    - icon: phone
+      number: '(65) 3624-8325'
+  email: contato@connect.com.vc
+
+# Build
+markdown: kramdown
+
+# Sprockets
+assets:
+  prefix: "/assets"
+  sources:
+    - _assets/bower
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+  features:
+    liquid: true
